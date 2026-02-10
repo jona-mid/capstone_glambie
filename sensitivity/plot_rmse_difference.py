@@ -16,11 +16,11 @@ import matplotlib.pyplot as plt
 
 # Paths
 BASE = os.path.dirname(os.path.abspath(__file__))
-RUN1 = os.path.join(BASE, "Reanalysis_RGI_6_Regression_Proportional")
-RUN2 = os.path.join(BASE, "Reanalysis_RGI_6_Regression_Proportional_including_most")
+RUN1 = os.path.join(BASE, "Reanalysis_default")
+RUN2 = os.path.join(BASE, "Reanalysis_including_most")
 
 # Load glacier mass data (year 2000)
-GLACIER_MASS_FILE = os.path.join(os.path.dirname(BASE), "relative rates", "glacier_mass_2000.csv")
+GLACIER_MASS_FILE = os.path.join(BASE, "glacier_mass_2000.csv")
 glacier_mass_df = pd.read_csv(GLACIER_MASS_FILE, sep=";")
 glacier_mass_dict = dict(zip(glacier_mass_df["Region"], glacier_mass_df["Mass"]))
 

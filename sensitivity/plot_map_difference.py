@@ -21,8 +21,8 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Paths
 BASE = os.path.dirname(os.path.abspath(__file__))
-RUN1 = os.path.join(BASE, "Reanalysis_RGI_6_Regression_Proportional")
-RUN2 = os.path.join(BASE, "Reanalysis_RGI_6_Regression_Proportional_including_most")
+RUN1 = os.path.join(BASE, "Reanalysis_default")
+RUN2 = os.path.join(BASE, "Reanalysis_including_most")
 
 # Region mapping: directory -> (display name, representative lat, lon, region_number)
 REGIONS = {
