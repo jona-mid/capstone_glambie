@@ -28,7 +28,7 @@ for _, row in excluded_df.iterrows():
         excluded_set.add((region, data_group, dataset))
 
 # Datasets to completely remove from plots
-SKIP_DATASETS = {'UZH_GlaciolSineWave', 'WGMS-mean_ba'}
+# SKIP_DATASETS = {'UZH_GlaciolSineWave', 'WGMS-mean_ba'}
 
 # Load all datasets
 datasets = []
@@ -78,7 +78,7 @@ for (region, unit), group_datasets in sorted(grouped.items()):
     if not group_datasets:
         continue
 
-    fig, ax = plt.subplots(figsize=(16, 10))
+    fig, ax = plt.subplots(figsize=(8, 5))
 
     included = [ds for ds in group_datasets if not ds['is_excluded']]
     excluded = [ds for ds in group_datasets if ds['is_excluded']]
@@ -149,12 +149,10 @@ for (region, unit), group_datasets in sorted(grouped.items()):
                                          label=f"{ds['dataset']} (Excluded)"))
 
     unit_label = 'Gravimetry (Gt)' if unit == 'Gt' else 'All Other Methods (m)'
-    ax.set_xlabel('Time (year)', fontsize=14, fontweight='bold')
-    ax.set_ylabel(f'Change ({unit})', fontsize=14, fontweight='bold')
+    ax.set_xlabel('Time (year)')
+    ax.set_ylabel(f'Change ({unit})')
     ax.set_title(
-        f'{region.replace("_", " ").title()} - {unit_label} - Included vs Excluded',
-        fontsize=16, fontweight='bold', pad=20
-    )
+        f'{region.replace("_", " ").title()} - {unit_label} - Included vs Excluded')
     ax.grid(True, alpha=0.3, linestyle='--')
 
     if legend_elements:
