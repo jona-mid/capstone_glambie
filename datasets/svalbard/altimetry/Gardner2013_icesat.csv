@@ -1,0 +1,2 @@
+start_dates,end_dates,changes,errors,glacier_area_reference,glacier_area_observed,remarks
+2003.786301369863,2009.786301369863,-0.73,0.2,34000,34000,"Gardner et al. 2013 icesat results in Gt/yr (i) transformed to m/yr by dividing by glacier area reference and density conversion = 900 kg/m, (ii) transformed to m using period = 6 years, and uncertainty propagated using square root of the sum of squares"

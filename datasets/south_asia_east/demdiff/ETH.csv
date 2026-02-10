@@ -1,0 +1,5 @@
+start_dates,end_dates,changes,errors,glacier_area_reference,glacier_area_observed,remarks
+2000.0,2005.0,-2.31,0.78,14734.204,13629.1387,RGI6.0 updated in region 7 and 12
+2005.0,2010.0,-2.665,0.67,14734.204,13629.1387,RGI6.0 updated in region 7 and 12
+2010.0,2015.0,-2.955,0.68,14734.204,13629.1387,RGI6.0 updated in region 7 and 12
+2015.0,2020.0,-3.325,0.84,14734.204,13629.1387,RGI6.0 updated in region 7 and 12

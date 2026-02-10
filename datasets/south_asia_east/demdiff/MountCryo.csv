@@ -1,0 +1,2 @@
+start_dates,end_dates,changes,errors,glacier_area_reference,glacier_area_observed,remarks
+2000.1256830601092,2015.4986301369863,-5.86,0.61,14734,7450,"Dates represent the mid point of SRTM DEM acquisition range, and the middle date of 2015, when most HMA DEMs were acquired. "

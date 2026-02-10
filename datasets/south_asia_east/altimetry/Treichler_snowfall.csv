@@ -1,0 +1,2 @@
+start_dates,end_dates,changes,errors,glacier_area_reference,glacier_area_observed,remarks
+2003.805479452055,2008.852459016393,-3.42819547418163,1.55557710721971,14726,41.4285750219703,Alternative result with correction for snowfall in November/December 2008. Dummy start/end time +10y as the auto-check wouldn't let me submit the file with correct time stamps.
