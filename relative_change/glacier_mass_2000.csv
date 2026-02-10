@@ -1,0 +1,21 @@
+Region;Mass;Error;File
+Alaska;16497;4190;1_alaska.csv
+Western Canada and USA;950;243;2_western_canada_us.csv
+Arctic Canada north;24105;6264;3_arctic_canada_north.csv
+Arctic Canada south;7648;1981;4_arctic_canada_south.csv
+Greenland periphery;12525;3249;5_greenland_periphery.csv
+Iceland;3372;880;6_iceland.csv
+Svalbard and Jan Mayen;6507;1675;7_svalbard.csv
+Scandinavia;275;72;8_scandinavia.csv
+Russian Arctic;11934;3095;9_russian_arctic.csv
+North Asia;137;36;10_north_asia.csv
+Central Europe;122;27;11_central_europe.csv
+Caucasus and Middle East;50;18;12_caucasus_middle_east.csv
+Central Asia;2946;765;13_central_asia.csv
+South Asia west;2583;666;14_south_asia_west.csv
+South Asia east;816;207;15_south_asia_east.csv
+Low latitudes;90;27;16_low_latitudes.csv
+Southern Andes;4772;1242;17_southern_andes.csv
+New Zealand;66;19;18_new_zealand.csv
+Antarctic and subantarctic islands;26336;6734;19_antarctic_and_subantarctic.csv
+Global;121728;11509;0_global.csv
