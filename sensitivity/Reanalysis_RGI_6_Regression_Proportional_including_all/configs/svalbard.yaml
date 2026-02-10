@@ -1,0 +1,30 @@
+region_name: svalbard
+region_run_settings:
+  altimetry:
+    exclude_annual_datasets:
+    - null
+    exclude_trend_datasets:
+    - null
+  demdiff_and_glaciological:
+    exclude_annual_datasets:
+    - null
+    exclude_trend_datasets:
+    - null
+    include_combined_annual_datasets:
+    - ArcticInSituvGRACE
+    - DUS-combined
+    - Huss
+    include_combined_trend_datasets:
+    - DUS-combined
+    - Huss
+  gravimetry:
+    exclude_annual_datasets:
+    - null
+    exclude_trend_datasets:
+    - null
+    include_combined_trend_datasets:
+    - Box2018
+seasonal_correction_dataset:
+  data_group: glaciological
+  user_group: UZH_GlaciolSineWave
+year_type: glaciological

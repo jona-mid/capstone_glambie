@@ -15,7 +15,7 @@ EXCLUDED_COLORS = ['#e74c3c', '#c0392b', '#a93226', '#922b21', '#7b241c']
 
 #  Load excluded list
 excluded_df = pd.read_csv('excluded_datasets_list.csv')
-excluded_df = excluded_df[excluded_df['inclusion_possible'].str.strip().str.lower() == 'no']
+# excluded_df = excluded_df[excluded_df['inclusion_possible'].str.strip().str.lower() == 'no'] # plot only problematic datasets as "excluded"
 
 excluded_set = set()
 for _, row in excluded_df.iterrows():
