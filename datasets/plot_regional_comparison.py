@@ -5,7 +5,7 @@ from pathlib import Path
 from collections import defaultdict
 
 COLUMNS = {'start_dates', 'end_dates', 'changes', 'errors'}
-OUTPUT_DIR = Path('regional_comparison_plots')
+OUTPUT_DIR = Path('regional_problematic_datasets')
 
 INCLUDED_COLORS = ['#2ecc71', '#27ae60', '#229954', '#1e8449', '#196f3d']
 EXCLUDED_COLORS = ['#e74c3c', '#c0392b', '#a93226', '#922b21', '#7b241c']
@@ -15,6 +15,8 @@ EXCLUDED_COLORS = ['#e74c3c', '#c0392b', '#a93226', '#922b21', '#7b241c']
 
 #  Load excluded list
 excluded_df = pd.read_csv('excluded_datasets_list.csv')
+excluded_df = excluded_df[excluded_df['inclusion_possible'].str.strip().str.lower() == 'no']
+
 excluded_set = set()
 for _, row in excluded_df.iterrows():
     region = row['region']
@@ -28,7 +30,7 @@ for _, row in excluded_df.iterrows():
         excluded_set.add((region, data_group, dataset))
 
 # Datasets to completely remove from plots
-# SKIP_DATASETS = {'UZH_GlaciolSineWave', 'WGMS-mean_ba'}
+SKIP_DATASETS = set()
 
 # Load all datasets
 datasets = []
@@ -152,7 +154,7 @@ for (region, unit), group_datasets in sorted(grouped.items()):
     ax.set_xlabel('Time (year)')
     ax.set_ylabel(f'Change ({unit})')
     ax.set_title(
-        f'{region.replace("_", " ").title()} - {unit_label} - Included vs Excluded')
+        f'{region.replace("_", " ").title()} ({unit_label})')
     ax.grid(True, alpha=0.3, linestyle='--')
 
     if legend_elements:
@@ -162,5 +164,5 @@ for (region, unit), group_datasets in sorted(grouped.items()):
 
     safe_region = region.replace('/', '_').replace('\\', '_')
     output_path = OUTPUT_DIR / f"{safe_region}_{unit}.png"
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.savefig(output_path, dpi=200, bbox_inches='tight')
     plt.close()

@@ -1,107 +1,143 @@
-region,data_group,dataset,exclusion_type
-alaska,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-alaska,demdiff_and_glaciological,WGMS-mean_ba,annual
-alaska,gravimetry,Jacob_2012_dmdt,annual
-antarctic_and_subantarctic,altimetry,Gardner2013_icesat,annual
-antarctic_and_subantarctic,altimetry,Khan,annual
-antarctic_and_subantarctic,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-antarctic_and_subantarctic,demdiff_and_glaciological,WGMS-mean_ba,annual
-arctic_canada_north,altimetry,Gardner2013_icesat,annual
-arctic_canada_north,altimetry,Khan,annual
-arctic_canada_north,altimetry,Tepes,annual
-arctic_canada_north,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-arctic_canada_north,demdiff_and_glaciological,WGMS-mean_ba,annual
-arctic_canada_north,gravimetry,Jacob_2012_dmdt,annual
-arctic_canada_south,altimetry,Gardner2013_icesat,annual
-arctic_canada_south,altimetry,Khan,annual
-arctic_canada_south,altimetry,Tepes,annual
-arctic_canada_south,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-arctic_canada_south,demdiff_and_glaciological,WGMS-mean_ba,annual
-arctic_canada_south,gravimetry,Jacob_2012_dmdt,annual
-caucasus_middle_east,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-caucasus_middle_east,demdiff_and_glaciological,WGMS-mean_ba,annual
-caucasus_middle_east,gravimetry,Jacob_2012_dmdt,"annual, trend"
-caucasus_middle_east,gravimetry,Wouters,"annual, trend"
-central_asia,altimetry,Ke,annual
-central_asia,altimetry,Treichler_ICESat,"annual, trend"
-central_asia,altimetry,Treichler_snowfall,annual
-central_asia,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-central_asia,demdiff_and_glaciological,WGMS-mean_ba,annual
-central_asia,gravimetry,Harig_Group,"annual, trend"
-central_asia,gravimetry,Jacob_2012_dmdt,"annual, trend"
-central_asia,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-central_asia,gravimetry,Wouters,"annual, trend"
-central_europe,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-central_europe,demdiff_and_glaciological,WGMS-mean_ba,annual
-central_europe,gravimetry,Jacob_2012_dmdt,"annual, trend"
-central_europe,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-central_europe,gravimetry,Wouters,"annual, trend"
-greenland_periphery,altimetry,Bolch_2013,annual
-greenland_periphery,altimetry,Gardner2013_icesat,annual
-greenland_periphery,altimetry,Khan,annual
-greenland_periphery,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-greenland_periphery,demdiff_and_glaciological,WGMS-mean_ba,annual
-iceland,altimetry,Foresta,annual
-iceland,altimetry,Tepes,annual
-iceland,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-iceland,demdiff_and_glaciological,WGMS-mean_ba,annual
-iceland,gravimetry,Jacob_2012_dmdt,annual
-low_latitudes,demdiff_and_glaciological,WGMS-mean_ba,annual
-low_latitudes,gravimetry,Jacob_2012_dmdt,"annual, trend"
-low_latitudes,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-low_latitudes,gravimetry,Wouters,"annual, trend"
-new_zealand,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-new_zealand,demdiff_and_glaciological,WGMS-mean_ba,annual
-new_zealand,gravimetry,Harig_Group,"annual, trend"
-new_zealand,gravimetry,Jacob_2012_dmdt,"annual, trend"
-new_zealand,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-new_zealand,gravimetry,Wouters,"annual, trend"
-north_asia,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-north_asia,demdiff_and_glaciological,WGMS-mean_ba,annual
-north_asia,gravimetry,Jacob_2012_dmdt,"annual, trend"
-north_asia,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-north_asia,gravimetry,Wouters,"annual, trend"
-russian_arctic,altimetry,Gardner2013_icesat,annual
-russian_arctic,altimetry,Tepes,annual
-russian_arctic,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-russian_arctic,demdiff_and_glaciological,WGMS-mean_ba,annual
-russian_arctic,gravimetry,Jacob_2012_dmdt,annual
-scandinavia,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-scandinavia,demdiff_and_glaciological,WGMS-mean_ba,annual
-scandinavia,gravimetry,Jacob_2012_dmdt,"annual, trend"
-scandinavia,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-scandinavia,gravimetry,Wouters,"annual, trend"
-south_asia_east,altimetry,Ke,annual
-south_asia_east,altimetry,Treichler_ICESat,"annual, trend"
-south_asia_east,altimetry,Treichler_snowfall,annual
-south_asia_east,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-south_asia_east,demdiff_and_glaciological,WGMS-mean_ba,annual
-south_asia_east,gravimetry,Jacob_2012_dmdt,"annual, trend"
-south_asia_east,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-south_asia_east,gravimetry,Wouters,"annual, trend"
-south_asia_west,altimetry,Ke,annual
-south_asia_west,altimetry,Treichler_ICESat,"annual, trend"
-south_asia_west,altimetry,Treichler_snowfall,annual
-south_asia_west,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-south_asia_west,demdiff_and_glaciological,WGMS-mean_ba,annual
-south_asia_west,gravimetry,Jacob_2012_dmdt,"annual, trend"
-south_asia_west,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-south_asia_west,gravimetry,Wouters,"annual, trend"
-southern_andes,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-southern_andes,demdiff_and_glaciological,WGMS-mean_ba,annual
-southern_andes,gravimetry,Harig_Group,"annual, trend"
-southern_andes,gravimetry,Jacob_2012_dmdt,annual
-svalbard,altimetry,Gardner2013_icesat,annual
-svalbard,altimetry,Tepes,annual
-svalbard,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-svalbard,demdiff_and_glaciological,WGMS-mean_ba,annual
-svalbard,gravimetry,Jacob_2012_dmdt,annual
-western_canada_us,altimetry,Menounos_WNA_alt1,annual
-western_canada_us,altimetry,Menounos_WNA_is2gedi,annual
-western_canada_us,demdiff_and_glaciological,Menounos_WNA_glac,annual
-western_canada_us,demdiff_and_glaciological,UZH_GlaciolSineWave,annual
-western_canada_us,demdiff_and_glaciological,WGMS-mean_ba,annual
-western_canada_us,gravimetry,Harig_Group,"annual, trend"
-western_canada_us,gravimetry,Jacob_2012_dmdt,"annual, trend"
-western_canada_us,gravimetry,Sasgen_AWIarc_RL01_2,"annual, trend"
-western_canada_us,gravimetry,Wouters,"annual, trend"
+region,data_group,dataset,exclusion_type,inclusion_possible
+alaska,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+alaska,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+alaska,gravimetry,Jacob_2012_dmdt,annual,yes
+antarctic_and_subantarctic,altimetry,Gardner2013_icesat,annual,no
+antarctic_and_subantarctic,altimetry,Khan,annual,yes
+antarctic_and_subantarctic,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+antarctic_and_subantarctic,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+arctic_canada_north,altimetry,Gardner2013_icesat,annual,yes
+arctic_canada_north,altimetry,Khan,annual,no
+arctic_canada_north,altimetry,Tepes,annual,yes
+arctic_canada_north,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+arctic_canada_north,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+arctic_canada_north,gravimetry,Jacob_2012_dmdt,annual,yes
+arctic_canada_south,altimetry,Gardner2013_icesat,annual,yes
+arctic_canada_south,altimetry,Khan,annual,no
+arctic_canada_south,altimetry,Tepes,annual,yes
+arctic_canada_south,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+arctic_canada_south,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+arctic_canada_south,gravimetry,Jacob_2012_dmdt,annual,yes
+caucasus_middle_east,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+caucasus_middle_east,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+caucasus_middle_east,gravimetry,Jacob_2012_dmdt,annual,yes
+caucasus_middle_east,gravimetry,Jacob_2012_dmdt,trend,yes
+caucasus_middle_east,gravimetry,Wouters,annual,yes
+caucasus_middle_east,gravimetry,Wouters,trend,yes
+central_asia,altimetry,Ke,annual,yes
+central_asia,altimetry,Treichler_ICESat,annual,no
+central_asia,altimetry,Treichler_ICESat,trend,yes
+central_asia,altimetry,Treichler_snowfall,annual,no
+central_asia,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+central_asia,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+central_asia,gravimetry,Harig_Group,annual,yes
+central_asia,gravimetry,Harig_Group,trend,yes
+central_asia,gravimetry,Jacob_2012_dmdt,annual,yes
+central_asia,gravimetry,Jacob_2012_dmdt,trend,yes
+central_asia,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+central_asia,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+central_asia,gravimetry,Wouters,annual,yes
+central_asia,gravimetry,Wouters,trend,yes
+central_europe,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+central_europe,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+central_europe,gravimetry,Jacob_2012_dmdt,annual,yes
+central_europe,gravimetry,Jacob_2012_dmdt,trend,yes
+central_europe,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+central_europe,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+central_europe,gravimetry,Wouters,annual,yes
+central_europe,gravimetry,Wouters,trend,yes
+greenland_periphery,altimetry,Bolch_2013,annual,no
+greenland_periphery,altimetry,Gardner2013_icesat,annual,no
+greenland_periphery,altimetry,Khan,annual,yes
+greenland_periphery,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+greenland_periphery,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+iceland,altimetry,Foresta,annual,yes
+iceland,altimetry,Tepes,annual,yes
+iceland,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+iceland,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+iceland,gravimetry,Jacob_2012_dmdt,annual,yes
+low_latitudes,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+low_latitudes,gravimetry,Jacob_2012_dmdt,annual,yes
+low_latitudes,gravimetry,Jacob_2012_dmdt,trend,yes
+low_latitudes,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+low_latitudes,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+low_latitudes,gravimetry,Wouters,annual,yes
+low_latitudes,gravimetry,Wouters,trend,yes
+new_zealand,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+new_zealand,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+new_zealand,gravimetry,Harig_Group,annual,yes
+new_zealand,gravimetry,Harig_Group,trend,yes
+new_zealand,gravimetry,Jacob_2012_dmdt,annual,yes
+new_zealand,gravimetry,Jacob_2012_dmdt,trend,yes
+new_zealand,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+new_zealand,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+new_zealand,gravimetry,Wouters,annual,yes
+new_zealand,gravimetry,Wouters,trend,yes
+north_asia,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+north_asia,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+north_asia,gravimetry,Jacob_2012_dmdt,annual,yes
+north_asia,gravimetry,Jacob_2012_dmdt,trend,yes
+north_asia,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+north_asia,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+north_asia,gravimetry,Wouters,annual,yes
+north_asia,gravimetry,Wouters,trend,yes
+russian_arctic,altimetry,Gardner2013_icesat,annual,yes
+russian_arctic,altimetry,Tepes,annual,yes
+russian_arctic,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+russian_arctic,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+russian_arctic,gravimetry,Jacob_2012_dmdt,annual,yes
+scandinavia,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+scandinavia,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+scandinavia,gravimetry,Jacob_2012_dmdt,annual,yes
+scandinavia,gravimetry,Jacob_2012_dmdt,trend,yes
+scandinavia,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+scandinavia,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+scandinavia,gravimetry,Wouters,annual,yes
+scandinavia,gravimetry,Wouters,trend,yes
+south_asia_east,altimetry,Ke,annual,yes
+south_asia_east,altimetry,Treichler_ICESat,annual,no
+south_asia_east,altimetry,Treichler_ICESat,trend,yes
+south_asia_east,altimetry,Treichler_snowfall,annual,no
+south_asia_east,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+south_asia_east,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+south_asia_east,gravimetry,Jacob_2012_dmdt,annual,yes
+south_asia_east,gravimetry,Jacob_2012_dmdt,trend,yes
+south_asia_east,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+south_asia_east,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+south_asia_east,gravimetry,Wouters,annual,yes
+south_asia_east,gravimetry,Wouters,trend,yes
+south_asia_west,altimetry,Ke,annual,yes
+south_asia_west,altimetry,Treichler_ICESat,annual,no
+south_asia_west,altimetry,Treichler_ICESat,trend,yes
+south_asia_west,altimetry,Treichler_snowfall,annual,no
+south_asia_west,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+south_asia_west,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+south_asia_west,gravimetry,Jacob_2012_dmdt,annual,yes
+south_asia_west,gravimetry,Jacob_2012_dmdt,trend,yes
+south_asia_west,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+south_asia_west,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+south_asia_west,gravimetry,Wouters,annual,yes
+south_asia_west,gravimetry,Wouters,trend,yes
+southern_andes,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+southern_andes,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+southern_andes,gravimetry,Harig_Group,annual,yes
+southern_andes,gravimetry,Harig_Group,trend,yes
+southern_andes,gravimetry,Jacob_2012_dmdt,annual,yes
+svalbard,altimetry,Gardner2013_icesat,annual,yes
+svalbard,altimetry,Tepes,annual,yes
+svalbard,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+svalbard,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+svalbard,gravimetry,Jacob_2012_dmdt,annual,yes
+western_canada_us,altimetry,Menounos_WNA_alt1,annual,yes
+western_canada_us,altimetry,Menounos_WNA_is2gedi,annual,yes
+western_canada_us,demdiff_and_glaciological,Menounos_WNA_glac,annual,yes
+western_canada_us,demdiff_and_glaciological,UZH_GlaciolSineWave,annual,yes
+western_canada_us,demdiff_and_glaciological,WGMS-mean_ba,annual,yes
+western_canada_us,gravimetry,Harig_Group,annual,yes
+western_canada_us,gravimetry,Harig_Group,trend,yes
+western_canada_us,gravimetry,Jacob_2012_dmdt,annual,yes
+western_canada_us,gravimetry,Jacob_2012_dmdt,trend,yes
+western_canada_us,gravimetry,Sasgen_AWIarc_RL01_2,annual,yes
+western_canada_us,gravimetry,Sasgen_AWIarc_RL01_2,trend,yes
+western_canada_us,gravimetry,Wouters,annual,yes
+western_canada_us,gravimetry,Wouters,trend,yes
