@@ -5,6 +5,6 @@
 - output/ – generated plots: datasets plots, relative glacier mass change, sensitivity
 - scripts
   - plot_datasets.py – plots dataset comparisons
-  plot_dataset_sensitivity.py – plots to visualize influence of datasets
-  relative_change.ipynb – relative glacier mass change calculations
-  visualiziation.ipynb – visualization of glambie runs
+  - plot_dataset_sensitivity.py – plots to visualize influence of datasets
+  - relative_change.ipynb – relative glacier mass change calculations
+  - visualiziation.ipynb – visualization of glambie runs
