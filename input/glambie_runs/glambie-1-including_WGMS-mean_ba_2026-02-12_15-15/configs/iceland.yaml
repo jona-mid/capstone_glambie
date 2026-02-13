@@ -1,0 +1,32 @@
+region_name: iceland
+region_run_settings:
+  altimetry:
+    exclude_annual_datasets:
+    - Foresta
+    - Tepes
+  demdiff_and_glaciological:
+    exclude_annual_datasets:
+    - UZH_GlaciolSineWave
+    - null
+    exclude_trend_datasets:
+    - null
+    include_combined_annual_datasets:
+    - ArcticInSituvGRACE
+    - DUS-combined
+    - Huss
+    - Iceland-mb-group_tot
+    include_combined_trend_datasets:
+    - DUS-combined
+    - Huss
+    - Iceland-mb-group_tot
+  gravimetry:
+    exclude_annual_datasets:
+    - Jacob_2012_dmdt
+    exclude_trend_datasets:
+    - null
+    include_combined_trend_datasets:
+    - Box2018
+seasonal_correction_dataset:
+  data_group: glaciological
+  user_group: UZH_GlaciolSineWave
+year_type: glaciological
