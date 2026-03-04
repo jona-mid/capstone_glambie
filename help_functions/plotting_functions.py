@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import seaborn as sns
-import matplotlib as mpl
+
 import matplotlib.colors as colors
 import matplotlib.cm as cmx
 
