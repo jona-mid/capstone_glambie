@@ -223,8 +223,7 @@ def three_runs_annual_cumulative_plot(region_name, data_distinction_1, data_dist
 def four_runs_annual_cumulative_plot(
     region_name,
     data_distinction_1, data_distinction_2, data_distinction_3, data_distinction_4,
-    data_run_1, data_run_2, data_run_3, data_run_4
-    ):
+    data_run_1, data_run_2, data_run_3, data_run_4):
 
     # Build cumulative series (Gt) for each run
     cum_1 = derivative_to_cumulative(data_run_1.start_dates, data_run_1.end_dates, data_run_1.combined_gt)
