@@ -150,15 +150,7 @@ def three_runs_relative_difference_plot(region_name, data_distinction_1, data_di
 
     return
 
-def three_runs_annual_cumulative_plot(
-    region_name,
-    data_distinction_1,
-    data_distinction_2,
-    data_distinction_3,
-    data_run_1,
-    data_run_2,
-    data_run_3
-):
+def three_runs_annual_cumulative_plot(region_name, data_distinction_1, data_distinction_2, data_distinction_3,data_run_1, data_run_2, data_run_3):
     # Build cumulative series (Gt) for each run
     cum_1 = derivative_to_cumulative(data_run_1.start_dates, data_run_1.end_dates, data_run_1.combined_gt)
     cum_1_err = derivative_to_cumulative(
@@ -225,7 +217,103 @@ def three_runs_annual_cumulative_plot(
 
     axs[0].legend(loc="lower left", fontsize=16)
     plt.suptitle(region_name + ": annual and cumulative comparison " + data_distinction_1 + ", " + data_distinction_2 + " and " + data_distinction_3, fontsize=18)
+
     return
+
+def four_runs_annual_cumulative_plot(
+    region_name,
+    data_distinction_1, data_distinction_2, data_distinction_3, data_distinction_4,
+    data_run_1, data_run_2, data_run_3, data_run_4
+):
+
+    # Build cumulative series (Gt) for each run
+    cum_1 = derivative_to_cumulative(data_run_1.start_dates, data_run_1.end_dates, data_run_1.combined_gt)
+    cum_1_err = derivative_to_cumulative(
+        data_run_1.start_dates, data_run_1.end_dates, data_run_1.combined_gt_errors, calculate_as_errors=True
+    )
+
+    cum_2 = derivative_to_cumulative(data_run_2.start_dates, data_run_2.end_dates, data_run_2.combined_gt)
+    cum_2_err = derivative_to_cumulative(
+        data_run_2.start_dates, data_run_2.end_dates, data_run_2.combined_gt_errors, calculate_as_errors=True
+    )
+
+    cum_3 = derivative_to_cumulative(data_run_3.start_dates, data_run_3.end_dates, data_run_3.combined_gt)
+    cum_3_err = derivative_to_cumulative(
+        data_run_3.start_dates, data_run_3.end_dates, data_run_3.combined_gt_errors, calculate_as_errors=True
+    )
+
+    cum_4 = derivative_to_cumulative(data_run_4.start_dates, data_run_4.end_dates, data_run_4.combined_gt)
+    cum_4_err = derivative_to_cumulative(
+        data_run_4.start_dates, data_run_4.end_dates, data_run_4.combined_gt_errors, calculate_as_errors=True
+    )
+
+    _, axs = plt.subplots(1, 2, figsize=(20, 8))
+
+    # Left: annual change (Gt)
+    axs[0].set_xlim(2000, 2024)
+    axs[0].hlines(0, 2000, 2024, linewidth=2, colors=["grey"], linestyle="dashed")
+
+    axs[0].plot(data_run_1.start_dates + 0.5, data_run_1.combined_gt, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_1)
+    axs[0].fill_between(data_run_1.start_dates + 0.5,
+                        data_run_1.combined_gt - data_run_1.combined_gt_errors,
+                        data_run_1.combined_gt + data_run_1.combined_gt_errors, alpha=0.2)
+
+    axs[0].plot(data_run_2.start_dates + 0.5, data_run_2.combined_gt, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_2)
+    axs[0].fill_between(data_run_2.start_dates + 0.5,
+                        data_run_2.combined_gt - data_run_2.combined_gt_errors,
+                        data_run_2.combined_gt + data_run_2.combined_gt_errors, alpha=0.2)
+
+    axs[0].plot(data_run_3.start_dates + 0.5, data_run_3.combined_gt, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_3)
+    axs[0].fill_between(data_run_3.start_dates + 0.5,
+                        data_run_3.combined_gt - data_run_3.combined_gt_errors,
+                        data_run_3.combined_gt + data_run_3.combined_gt_errors, alpha=0.2)
+
+    axs[0].plot(data_run_4.start_dates + 0.5, data_run_4.combined_gt, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_4)
+    axs[0].fill_between(data_run_4.start_dates + 0.5,
+                        data_run_4.combined_gt - data_run_4.combined_gt_errors,
+                        data_run_4.combined_gt + data_run_4.combined_gt_errors, alpha=0.2)
+
+    axs[0].set_xlabel("Year")
+    axs[0].set_ylabel("Mass Change (Gt)")
+    axs[0].grid(True, alpha=0.8)
+
+    # Right: cumulative change (Gt)
+    axs[1].set_xlim(2000, 2024)
+    axs[1].hlines(0, 2000, 2024, linewidth=2, colors=["grey"], linestyle="dashed")
+
+    axs[1].plot(cum_1.dates, cum_1.changes, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_1)
+    axs[1].fill_between(cum_1.dates, cum_1.changes - cum_1_err.errors, cum_1.changes + cum_1_err.errors, alpha=0.2)
+
+    axs[1].plot(cum_2.dates, cum_2.changes, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_2)
+    axs[1].fill_between(cum_2.dates, cum_2.changes - cum_2_err.errors, cum_2.changes + cum_2_err.errors, alpha=0.2)
+
+    axs[1].plot(cum_3.dates, cum_3.changes, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_3)
+    axs[1].fill_between(cum_3.dates, cum_3.changes - cum_3_err.errors, cum_3.changes + cum_3_err.errors, alpha=0.2)
+
+    axs[1].plot(cum_4.dates, cum_4.changes, linewidth=3, zorder=2,
+                label=region_name + " - " + data_distinction_4)
+    axs[1].fill_between(cum_4.dates, cum_4.changes - cum_4_err.errors, cum_4.changes + cum_4_err.errors, alpha=0.2)
+
+    axs[1].set_xlabel("Year")
+    axs[1].set_ylabel("Cumulative Change [Gt]")
+    axs[1].grid(True, alpha=0.8)
+
+    axs[0].legend(loc="lower left", fontsize=16)
+    plt.suptitle(
+        region_name + ": annual and cumulative comparison " +
+        data_distinction_1 + ", " + data_distinction_2 + ", " +
+        data_distinction_3 + " and " + data_distinction_4,
+        fontsize=18
+    )
+    return
+
 
 def derivative_to_cumulative(start_dates, end_dates, changes, calculate_as_errors: bool = False):
 
