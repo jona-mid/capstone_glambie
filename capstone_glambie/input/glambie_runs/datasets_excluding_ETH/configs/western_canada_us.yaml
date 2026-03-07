@@ -1,0 +1,36 @@
+region_name: western_canada_us
+region_run_settings:
+  altimetry:
+    exclude_annual_datasets:
+    - Menounos_WNA_alt1
+    - Menounos_WNA_is2gedi
+    exclude_trend_datasets:
+    - null
+  demdiff_and_glaciological:
+    exclude_annual_datasets:
+    - UZH_GlaciolSineWave
+    - WGMS-mean_ba
+    - Menounos_WNA_glac
+    exclude_trend_datasets:
+    - ETH
+    include_combined_annual_datasets:
+    - DUS-combined
+    - Huss
+    include_combined_trend_datasets:
+    - DUS-combined
+    - Huss
+  gravimetry:
+    exclude_annual_datasets:
+    - Harig_Group
+    - Sasgen_AWIarc_RL01_2
+    - Wouters
+    - Jacob_2012_dmdt
+    exclude_trend_datasets:
+    - Harig_Group
+    - Sasgen_AWIarc_RL01_2
+    - Wouters
+    - Jacob_2012_dmdt
+seasonal_correction_dataset:
+  data_group: glaciological
+  user_group: UZH_GlaciolSineWave
+year_type: glaciological

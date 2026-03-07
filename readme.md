@@ -4,6 +4,8 @@ Repository for the Reanalysis "Community estimate of global glacier mass changes
 
 ## Structure
 
+Inside the capstone_glambie folder there are:
+
 - **input/** – glambie original results, modified runs in regular and in adjusted format (glambie_runs_clean), input datasets and initial glacier mass data (based on Zemp et al., 2025)
 - **output/** – generated plots of input datasets by inclusion/exclusion, barcharts of variation of estimates due to dataset inclusion/exclusion
 - **glambie/** – files containing functions from the glambie model we cite in our analysis

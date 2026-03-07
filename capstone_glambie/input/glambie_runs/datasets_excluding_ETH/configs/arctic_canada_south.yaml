@@ -1,0 +1,34 @@
+region_name: arctic_canada_south
+region_run_settings:
+  altimetry:
+    exclude_annual_datasets:
+    - Tepes
+    - Khan
+    - Gardner2013_icesat
+    exclude_trend_datasets:
+    - null
+  demdiff_and_glaciological:
+    exclude_annual_datasets:
+    - UZH_GlaciolSineWave
+    - WGMS-mean_ba
+    exclude_trend_datasets:
+    - ETH
+    include_combined_annual_datasets:
+    - ArcticInSituvGRACE
+    - DUS-combined
+    - Huss
+    include_combined_trend_datasets:
+    - DUS-combined
+    - Huss
+  gravimetry:
+    exclude_annual_datasets:
+    - Jacob_2012_dmdt
+    exclude_trend_datasets:
+    - null
+    include_combined_trend_datasets:
+    - Box2018
+    - Colgan2015
+seasonal_correction_dataset:
+  data_group: glaciological
+  user_group: UZH_GlaciolSineWave
+year_type: glaciological
