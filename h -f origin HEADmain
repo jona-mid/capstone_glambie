@@ -1,0 +1,70 @@
+[33m4580f77[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mnew-branch[m[33m)[m Initial commit
+[33m9ec0ed9[m[33m ([m[1;31morigin/copilot/fix-import-error-four-runs-cumulative-plot[m[33m)[m Fix ImportError for glambie.data and add four_runs_annual_cumulative_plot to plotting.ipynb
+[33m6132c85[m Initial plan
+[33mb6f7164[m Initial plan
+[33m6279bb3[m Add four runs plot
+[33m604ccb2[m Add four runs plot
+[33m34a64f5[m Add four runs plot
+[33m6295ebb[m Remove old glambie runs
+[33m5da3f7f[m Add plotting functions to help_functions package
+[33md1a7f63[m Add files via upload
+[33me9b74b5[m Add files via upload
+[33m8af8117[m Add files via upload
+[33m00fd9bd[m Update plotting_functions.py
+[33mf696529[m Update plotting_functions.py
+[33mace634f[m Update plotting_functions.py
+[33m2e09fa0[m Update plotting_functions.py
+[33mfcfd122[m Update plotting_functions.py
+[33mdc7f483[m Update plotting_functions.py
+[33m1d623a2[m Create plotting_functions.py
+[33m9b2ba14[m Add files via upload
+[33m80e47cf[m Create mass_height_conversions.py
+[33mba8ff10[m Create regions.py
+[33m5040975[m Update input
+[33mebf39b9[m Merge branch 'main' of https://github.com/jona-mid/capstone_glambie
+[33m551dab1[m Add files via upload
+[33mef86a26[m Add files via upload
+[33mb2a8d71[m Add files via upload
+[33mb704676[m squared area 2012
+[33m972e400[m squared area 2023
+[33m343faa2[m squared area 212
+[33m63dc9b4[m RGI 7 clean input
+[33mb824bef[m Merge branch 'main' of https://github.com/jona-mid/capstone_glambie
+[33mbee4a66[m Update reanalysis_pdf.ipynb
+[33m4a474d6[m Add files via upload
+[33mc5f07aa[m Added reanalysis_pdf.ipynb
+[33md677227[m Updates
+[33m443ab2b[m Add combined processing function for data format
+[33m77fb3e4[m Trying to process glambie runs
+[33m2d24569[m Add notebooks from Milva
+[33mb83a364[m Update
+[33ma79c94d[m Changes
+[33mc3578a5[m data right format for area
+[33m8aa7343[m put the data in the right format
+[33m7fbc9e4[m Added glambie runs
+[33m3b7035f[m Update analysis.ipynb
+[33m44230a2[m Delete maps
+[33md952604[m Update
+[33m5e8ff8e[m Progress with excluded datasets, get better understanding of which datasets are excluded and plotting vs included datasets, prepare sensitivity runs for individual datasets
+[33m0e20a1c[m Update readme.md
+[33mf5b8a6b[m Update readme.md
+[33m1ced1f6[m Update readme.md
+[33m5bd8c56[m Update readme.md
+[33m3292fb2[m Update readme.md
+[33ma7d4091[m Add combined analysis script
+[33mf3f6662[m Update readme.md
+[33m4b5c050[m Update readme.md
+[33m72c3199[m Removed old scripts
+[33mc1996f6[m Removed old scripts
+[33m0f59509[m Restructure
+[33md66c586[m Updated glambie runs
+[33mee37582[m Added sentivity results for excluded datasets.
+[33m6cac2b0[m Added glambie runs from fresh installation with default config and adjusted config including as many datasets as possible.
+[33m9368c68[m Added plots for problematic datasets which lead to failure of glambie algorithm when included
+[33m5017cd9[m Added Mann-Kendall test and scatterplot to relative change script.
+[33md35efbe[m Added relative glacier change folder
+[33m61c9131[m Merge branch 'main' of https://github.com/jona-mid/capstone_glambie
+[33m91ad4fe[m Dataset plot layout adjusted
+[33mcc7d7de[m Update readme.md
+[33m8a638fa[m Added datasets folder. Plotting input datasets, included vs excluded.
+[33me4ddc65[m Create readme.md
