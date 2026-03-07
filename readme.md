@@ -4,6 +4,9 @@ Repository for the Reanalysis "Community estimate of global glacier mass changes
 
 ## Structure
 
+- Comment.pdf - two page comment
+- Reanalysis.pdf - detailed description of our renanalysis (also as html and ipynb)
+
 Inside the capstone_glambie folder there are:
 
 - **input/** – glambie original results, modified runs in regular and in adjusted format (glambie_runs_clean), input datasets and initial glacier mass data (based on Zemp et al., 2025)
