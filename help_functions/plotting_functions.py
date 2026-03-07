@@ -34,7 +34,7 @@ def two_region_comparison_plot_2(region_name, data_distinction, comparison_data_
                         cumulative_data_all_mwe_comparison.changes + cumulative_errors_all_mwe_comparison.errors, alpha=0.2)
 
     axs[1].set_xlabel('Year')
-    axs[1].set_ylabel('Cumulative Change [metres water equivalent]')
+    axs[1].set_ylabel('Cumulative Change [m w.e.]')
 
     axs[0].legend(loc = 'lower left', fontsize=16)
     plt.suptitle(region_name + ': comparison RGI 6 and RGI 7: total ice loss, 2000 - 2023', fontsize=18)
@@ -108,7 +108,7 @@ def three_runs_cumulative_comparison_plot(region_name, data_distinction_1, data_
 
 
     axs[1].set_xlabel('Year')
-    axs[1].set_ylabel('Cumulative Change [metres water equivalent]')
+    axs[1].set_ylabel('Cumulative Change [m w.e.]')
 
     axs[0].legend(loc = 'lower left', fontsize=16)
     plt.suptitle(region_name + ' cumulative ice loss predicted by models: ' + data_distinction_1 + ', '+ data_distinction_2 + ' and ' + data_distinction_3, fontsize=18)
@@ -130,7 +130,7 @@ def three_runs_relative_difference_plot(region_name, data_distinction_1, data_di
 
 
     axs[0].set_xlabel('Year')
-    axs[0].set_ylabel('Relative difference in Mass Change Gigatonnes (%)')
+    axs[0].set_ylabel('Relative difference in Mass Change [% Gt]')
     axs[0].grid(True, alpha=0.8)
 
     ###########3
@@ -142,7 +142,7 @@ def three_runs_relative_difference_plot(region_name, data_distinction_1, data_di
     axs[1].plot(difference_data_2.start_dates + 0.5, difference_data_2.mwe_difference, linewidth=3, zorder=2, label=region_name + ' - ' + data_distinction_2)
 
     axs[1].set_xlabel('Year')
-    axs[1].set_ylabel('Relative difference in Mass Change MWE (%)')
+    axs[1].set_ylabel('Relative difference in Mass Change [% m w.e.]')
 
     axs[0].legend(loc = 'lower left', fontsize=16)
     plt.suptitle(region_name + ': Relative difference in ice loss between runs', fontsize=18)
@@ -192,7 +192,7 @@ def three_runs_annual_cumulative_plot(region_name, data_distinction_1, data_dist
                         data_run_3.combined_gt + data_run_3.combined_gt_errors, alpha=0.2)
 
     axs[0].set_xlabel("Year")
-    axs[0].set_ylabel("Mass Change (Gt)")
+    axs[0].set_ylabel("Mass Change [Gt]")
     axs[0].grid(True, alpha=0.8)
 
     # Right: cumulative change (Gt)
@@ -277,7 +277,7 @@ def four_runs_annual_cumulative_plot(
                         data_run_4.combined_gt + data_run_4.combined_gt_errors, alpha=0.2)
 
     axs[0].set_xlabel("Year")
-    axs[0].set_ylabel("Mass Change (Gt)")
+    axs[0].set_ylabel("Mass Change [Gt]")
     axs[0].grid(True, alpha=0.8)
 
     # Right: cumulative change (Gt)
